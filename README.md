@@ -1,1 +1,1 @@
-# This is an app for converting Celsius to Fahrenheit
+# This is the repo for my own Python practicing.
