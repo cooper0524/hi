@@ -25,3 +25,9 @@ for d in data:
     if "good" in d:
         good.append(d)
 print("There are", len(good), "records which contain the word good")
+
+goodList = [d for d in data if "good" in d]
+print(len(goodList))
+
+bad = ["bad" in d for d in data]
+print(len(bad))
