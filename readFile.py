@@ -19,3 +19,9 @@ for r in data:
     if len(r) < 100:
         new.append(r)
 print("There are", len(new), "records which length less than 100")
+
+good = []
+for d in data:
+    if "good" in d:
+        good.append(d)
+print("There are", len(good), "records which contain the word good")
