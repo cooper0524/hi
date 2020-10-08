@@ -13,3 +13,9 @@ for record in data:
     strLen += len(record.strip())
 averageLen = strLen/len(data)
 print("The average length of reviews is", averageLen)
+
+new = []
+for r in data:
+    if len(r) < 100:
+        new.append(r)
+print("There are", len(new), "records which length less than 100")
